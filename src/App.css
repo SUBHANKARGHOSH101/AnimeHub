@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 40px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}
